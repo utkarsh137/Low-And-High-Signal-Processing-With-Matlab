@@ -1,7 +1,7 @@
 clc;
 close all;
 
-[I, fs]= audioread('AUDIO.wav');     %To read the Orchestral Music 
+[I, fs]= audioread('AU3.wav');     %To read the Orchestral Music 
 
 l= length(I);            %length of original audio signal
 l2=2.^nextpow2(l);       % next two pwer length
